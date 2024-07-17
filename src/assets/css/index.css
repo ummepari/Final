@@ -1,0 +1,327 @@
+body {
+  margin: 0;
+}
+
+.markazi {
+  font-family: "Markazi Text", serif;
+  font-weight: 500;
+}
+
+.markazi-title {
+  font-family: "Markazi Text", serif;
+  font-weight: 500;
+  font-size: 64pt;
+}
+
+.markazi-subtitle {
+  font-family: "Markazi Text", serif;
+  font-weight: 500;
+  font-size: 40pt;
+}
+
+.karla-lead {
+  font-family: "Karla", serif;
+  font-weight: 500;
+  font-size: 18pt;
+}
+
+.karla-sec-title {
+  font-family: "Karla", serif;
+  font-weight: 800;
+  font-size: 20pt;
+}
+
+.karla-sec-category {
+  font-family: "Karla", serif;
+  font-weight: 800;
+  font-size: 16pt;
+}
+
+.karla-card-title {
+  font-family: "Karla", serif;
+  font-weight: 700;
+  font-size: 18pt;
+}
+
+.karla-highlight {
+  font-family: "Karla", serif;
+  font-weight: 500;
+  font-size: 16pt;
+}
+
+.karla-p {
+  font-family: "Karla", serif;
+  font-weight: 400;
+  font-size: 16pt;
+  line-height: 1.5;
+  max-width: 40em;
+}
+
+.bg-primary-green {
+  background-color: #495e57;
+}
+
+.bg-primary-yellow {
+  background-color: #f4ce14 !important;
+}
+
+.color-primary-green {
+  color: #495e57;
+}
+
+.color-primary-yellow {
+  color: #f4ce14;
+}
+
+.bg-sec-pink {
+  background-color: #ee9972;
+}
+
+.bg-sec-cream {
+  background-color: #fbdabb;
+}
+
+.bg-sec-white {
+  background-color: #edefee;
+}
+
+.bg-sec-black {
+  background-color: #333333;
+}
+
+.color-sec-pink {
+  color: #ee9972;
+}
+
+.color-sec-cream {
+  color: #fbdabb;
+}
+
+.color-sec-white {
+  color: #edefee !important;
+}
+
+.color-sec-black {
+  color: #333333;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 20px;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+}
+
+.row {
+  display: contents;
+}
+
+.col-1 {
+  grid-column: span 1;
+}
+.col-2 {
+  grid-column: span 2;
+}
+.col-3 {
+  grid-column: span 3;
+}
+.col-4 {
+  grid-column: span 4;
+}
+.col-5 {
+  grid-column: span 5;
+}
+.col-6 {
+  grid-column: span 6;
+}
+.col-7 {
+  grid-column: span 7;
+}
+.col-8 {
+  grid-column: span 8;
+}
+.col-9 {
+  grid-column: span 9;
+}
+.col-10 {
+  grid-column: span 10;
+}
+.col-11 {
+  grid-column: span 11;
+}
+.col-12 {
+  grid-column: span 12;
+}
+
+.lg-d-none {
+  display: none;
+}
+
+/* Responsive behavior for columns */
+@media (max-width: 768px) {
+  .col-sm-1 {
+    display: block;
+    grid-column: span 1;
+  }
+  .col-sm-2 {
+    display: block;
+    grid-column: span 2;
+  }
+  .col-sm-3 {
+    display: block;
+    grid-column: span 3;
+  }
+  .col-sm-4 {
+    display: block;
+    grid-column: span 4;
+  }
+  .col-sm-5 {
+    display: block;
+    grid-column: span 5;
+  }
+  .col-sm-6 {
+    display: block;
+    grid-column: span 6;
+  }
+  .col-sm-7 {
+    display: block;
+    grid-column: span 7;
+  }
+  .col-sm-8 {
+    display: block;
+    grid-column: span 8;
+  }
+  .col-sm-9 {
+    display: block;
+    grid-column: span 9;
+  }
+  .col-sm-10 {
+    display: block;
+    grid-column: span 10;
+  }
+  .col-sm-11 {
+    display: block;
+    grid-column: span 11;
+  }
+  .col-sm-12 {
+    display: block;
+    grid-column: span 12;
+  }
+
+  .sm-d-none {
+    display: none !important;
+  }
+
+  .lg-d-none {
+    display: block;
+  }
+}
+
+/* margin class */
+.m-0 {
+  margin: 0;
+}
+.mt-0 {
+  margin-top: 0;
+}
+
+.my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.mt-4 {
+  margin-top: 4rem;
+}
+
+.mt-6 {
+  margin-top: 6rem;
+}
+
+.mt-7 {
+  margin-top: 7rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.pl-2 {
+  padding-left: 2rem;
+}
+/* end margin class */
+
+.width-100 {
+  width: 100%;
+}
+
+.fz-12 {
+  font-size: 12pt !important;
+}
+.fz-14 {
+  font-size: 14pt !important;
+}
+.fz-16 {
+  font-size: 16pt !important;
+}
+.fz-18 {
+  font-size: 18pt !important;
+}
+.fz-20 {
+  font-size: 20pt !important;
+}
+.fz-24 {
+  font-size: 24pt;
+}
+.fz-26 {
+  font-size: 26pt;
+}
+.fz-28 {
+  font-size: 28pt;
+}
+.fz-30 {
+  font-size: 30pt;
+}
+
+.fw-600 {
+  font-weight: 600 !important;
+}
